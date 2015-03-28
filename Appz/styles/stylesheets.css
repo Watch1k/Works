@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Bira-PERSONALUSEONLY';
+  src: url('../fonts/Bira-PERSONALUSEONLY.eot?#iefix') format('embedded-opentype'),  url('../fonts/Bira-PERSONALUSEONLY.woff') format('woff'), url('../fonts/Bira-PERSONALUSEONLY.ttf')  format('truetype'), url('../fonts/Bira-PERSONALUSEONLY.svg#Bira-PERSONALUSEONLY') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeue.woff') format('woff'), url('../fonts/HelveticaNeue.ttf')  format('truetype'), url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url('../fonts/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeue-Bold.woff') format('woff'), url('../fonts/HelveticaNeue-Bold.ttf')  format('truetype'), url('../fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

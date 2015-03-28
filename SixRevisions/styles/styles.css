@@ -1,0 +1,257 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+
+body {
+	width: 100%;
+	background: url(../images/bg-image.jpg) no-repeat center -10px #D4D3C1;
+}
+@font-face {
+	font-family: "Tiza";
+	src: url(../fonts/tiza.ttf);
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: none;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header {
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+.header h1 {
+	display: block;
+	float: left;
+}
+.header h1 a {
+	display: block;
+	width: 280px;
+	padding: 0 0 0 20px;
+	letter-spacing: -0.02em;
+	color: #6F6751;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.header h1 a span {
+	font: 74px Tiza, Arial, sans-serif;
+	line-height: 85px;
+	
+}
+.header h1 a span + span {
+	display: block;
+	font: 32px Tiza, Arial, sans-serif;
+	margin: -10px 0 0 45px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header .nav {
+	overflow: hidden;
+	display: block;
+	float: right;
+}
+.header .nav ul {
+	overflow: hidden;
+}
+.header .nav ul li {
+	display: block;
+	float: left;
+}
+.header .nav ul li a {
+	display: block;
+	padding: 60px 15px 30px;
+	font: bold 17px Arial, sans-serif;
+	color: #6F6751;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -0.02em;
+}
+.header .nav ul li a:hover {
+	background: url(../images/bg-link-hover.png) repeat;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content {
+	overflow: hidden;
+	padding: 26px 0 0 0;
+}
+.content .item {                                  /*------------CLASS ITEM----------*/
+	overflow: hidden;
+	margin: 0 0 30px 0;
+	background: url(../images/bg-item.jpg) no-repeat center top;
+}
+.content .item img {
+	float: right;
+	margin: 15px 42px 15px 0;
+}
+.content .item h2 {
+	display: block;
+	width: 544px;
+	padding: 90px 0 0 60px;
+	font: 36px Tiza, Arial, sans-serif;
+	color: #C7C7C7;
+}
+.content .item ul {
+	margin: 30px 0 0 90px;
+}
+.content .item ul li {
+	margin: 0 0 15px 0;
+}
+.content .item ul li h3 a {
+	font: 16px Arial, sans-serif;
+	color: #C7C7C7;
+	letter-spacing: -0.02em;
+}                                               /*--------- END OF CLASS ITEM-------*/
+.content .item + ul {
+	display: block;
+	padding: 0 27px;
+}
+.content .item + ul > li {
+	display: block;
+	float: left;
+	width: 300px;
+}
+.content .item +ul > li + li {
+	width: 350px;
+	padding: 0 50px 0 0;
+}
+.content .item + ul > li + li + li {
+	width: 206px;
+	padding: 0;
+}
+.content .item + ul li a {
+	font: 16px Arial, sans-serif;
+	color: #3F3D3D;
+}
+.content .item + ul li h3 {                       /*------------h3 HEADINGS-----------*/
+	margin: 0 0 15px 0;
+	font: bold 18px Arial, sans-serif;
+	color: #3F3D3D;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: -0.04em;
+}
+.content .item + ul li + li h3 {
+	margin: 0 0 30px 0;
+}
+.content .item + ul li + li + li h3 {
+	margin: 0 0 15px 0;
+}
+.content .item + ul li ul li img {             
+	margin: 0 0 10px 0;
+}
+.content .item + ul li + li ul li {
+	margin: 0 0 25px 0;
+}
+.content .item + ul li ul li a {
+	line-height: 1.44em;
+	letter-spacing: -0.04em;
+}
+.content .item + ul li ul li p {
+	font: 16px Arial, sans-serif;
+	color: #3F3D3D;
+	letter-spacing: -0.04em;
+	line-height: 1.44em;
+}
+.content .item + ul li + li + li {                   /*----------SOCIAL LINKS----------*/
+	overflow: hidden;
+}
+.content .item + ul li + li + li ul {
+	display: block;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.content .item + ul li + li + li ul + ul {
+	margin: 0;
+}
+.content .item + ul li + li + li ul li, .content .item + ul li + li + li ul li img {
+	margin: 0;
+	padding: 0;
+}
+.content .item + ul li + li +li ul li a {
+	display: block;
+	border-radius: 50px;
+	line-height: 0;
+	padding: 10px 14px;
+}
+.content .item + ul li + li +li ul li a:hover {
+	background: url(../images/bg-link-hover.png) repeat;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer {
+	margin: 25px 0;
+}
+.footer hr {
+	border: 0 none;
+	height: 6px;
+	background-color: #C4C2AF;
+}
+.footer ul {
+	overflow: hidden;
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer ul li {
+	display: block;
+	float: left;
+	font: 14px Arial, sans-serif;
+	color: #494646;
+	line-height: 1.5em;
+}
+.footer ul li a {
+	font: 14px Arial, sans-serif;
+	color: #494646;
+	text-decoration: none;
+	border-bottom: 2px solid #8F8D84;
+}
+.footer ul li a:hover {
+	border-bottom: none;
+}
+.footer ul li span {
+	margin: 0 10px;
+}

@@ -1,0 +1,181 @@
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content-top-wrap {
+	background: #fff;
+	padding: 85px 0 0 0;
+}
+.content-top {
+	overflow: hidden;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 1% 50px 1%;
+}
+.content-top .social span {
+	margin: 0 0 0 8px;
+	font: 18px latoregular, Arial, sans-serif;
+	color: #BDC3C7;
+	text-transform: uppercase;
+}
+.content-top .social {
+	float: right;
+}
+.content-top .social ul {
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+.content-top .social ul li {
+	float: left;
+	margin: 0 0 0 8px;
+}
+.content-top .social ul li a {
+	display: block;
+	width: 42px;
+	height: 38px;
+	background: url(../images/social-header-sprite.png) no-repeat 0 0;
+}
+.content-top .social ul li + li  a {
+	background: url(../images/social-header-sprite.png) no-repeat -43px 0;
+}
+.content-top .social ul li + li + li a {
+	background: url(../images/social-header-sprite.png) no-repeat -86px 0;
+}
+.content-top .social ul li + li + li + li a {
+	background: url(../images/social-header-sprite.png) no-repeat -129px 0;
+}
+.content-top .social ul li + li + li + li + li a {
+	background: url(../images/social-header-sprite.png) no-repeat -172px 0;
+}
+.content-top > p {
+	font: 22px latoregular, Arial, sans-serif;
+	color: #BDC3C7;
+}
+.content-top > p + p {
+	margin: 15px 0 0 0;
+	font: 15px latoregular, Arial, sans-serif;
+	color: #BDC3C7;
+}
+.content-wrap {
+	background: #33495D;
+	padding: 30px 0 30px 0;
+}
+.content {
+	max-width: 1170px;
+	margin: 0 auto 0;
+}
+.content .categories {
+	text-align: center;
+}
+.content .categories li {
+	display: inline-block;
+}
+.content .categories li h2 a {
+	font: 13px lato_bold, Arial, sans-serif;
+	color: #EBEFF1;
+	text-decoration: none;
+}
+.content .categories li + li h2 a:before {
+	margin: 0 10px 0 10px;
+	content:'/';
+	color: #fff;
+}
+.content .categories li h2 a:hover {
+	color: #30D6BD;
+}
+.content .cards {
+	overflow: hidden;
+}
+.content .cards li {
+	float: left;
+	padding: 1%;
+	max-width: 23%;
+	margin: 30px 0 0 0;
+	text-align: center;
+}
+.content .cards li img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0 0 2px 1px rgba(0,0,0,0.25);
+}
+.content .cards li h3 {
+	margin: 10px 0 10px;
+}
+.content .cards li a {
+	display: block;
+	font: 16px lato_bold, Arial, sans-serif;
+	color: #EBEFF1;
+	text-decoration: none;
+}
+.content .cards li span {
+	font: 12px latoregular, Arial, sans-serif;
+	color: #BDC3C7;
+}
+.content .cards li h3 a:hover {
+	color: #30D6BD;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-----------------------------------RESPONSIVE-------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 870px) {
+	.content-top-wrap {
+		padding: 25px 0 0 0;
+	}
+	.content .cards li {
+		max-width: 31%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.content-top .social {
+		margin: 0 0 0 30px;
+	}
+	.content .categories li + li h2 a:before {
+		margin: 0 6px 0 6px;
+	}
+}
+@media screen and (max-width: 650px) {
+	.content-top-wrap {
+		padding: 1px 0 0 0;
+	}
+	.content-top {
+		margin: 20px 0 0 0;
+	}
+	.content-top .social {
+		float: none;
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	.content-top .social ul li {
+		float: none;
+		display: inline-block;
+	}
+	.content-top > p {
+		text-align: center;
+		margin: 40px 0 0 10px;
+	}
+	.content-top > p + p {
+		margin: 15px 0 0 10px;
+	}
+}
+@media screen and (max-width: 562px) {
+	.content .cards li {
+		max-width: 48%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.content .categories li + li h2 a:before {
+		margin: 0 3px 0 3px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.content .cards li {
+		max-width: none;
+		width: 100%;
+		padding: 0;
+	}
+	.content .cards li img {
+		max-width: none;
+		width: 100%;
+	}	
+}

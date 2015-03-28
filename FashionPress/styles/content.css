@@ -1,0 +1,270 @@
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content {
+	overflow: hidden;
+	width: 960px;
+	margin: 0 auto 35px;
+	padding: 2px 0 20px 0;
+	background: url(../images/bg-line.png) no-repeat;
+	background-position: 250px 9px;
+	background-size: 1px 100%;
+}
+.main-content {
+	overflow: hidden;
+	float: left;
+	width: 690px;
+	padding: 0 10px;
+}
+.main-content > ul {
+	overflow: hidden;
+}
+.main-content > ul li.small {
+	float: left;
+	width: 218px;
+	margin: 0 0 8px 8px;
+	padding: 5px 0 2px;
+	overflow: hidden;
+	background: #fff;
+	text-align: center;
+}
+.main-content > ul li.small ul.info {
+	overflow: hidden;
+}
+.main-content > ul li.small ul.info li {
+	display: block;
+	margin: 0 5px;
+	padding: 7px 5px 8px;
+	border-bottom: 1px solid #EDEDED;
+}
+.main-content > ul li.small ul.info li p {
+	font: 13px 'robotomedium', Arial, sans-serif;
+	color: #555;
+	line-height: 1.3em;
+	text-align: left;
+}
+.main-content > ul li.small ul.info li + li {
+	float: left;
+	width: 97px;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #EDEDED;
+	border-bottom: none;
+}
+.main-content > ul li.small ul.info li + li span {
+	font: 24px 'robotobold', Arial, sans-serif;
+	color: #3E3E3F;
+	line-height: 1.6em;
+}
+.main-content > ul li.small ul.info span.down {
+	font: 14px 'robotobold', Arial, sans-serif;
+	color: #3E3E3F;
+}
+.main-content > ul li.small ul.info span.upper {
+	font: 17px 'robotobold', Arial, sans-serif;
+	margin: 0 0 0 -5px;
+	vertical-align: 5px;
+}
+.main-content > ul li.small ul.info li + li + li {
+	display: block;
+	margin: 7px 0 0 8px;
+}
+.main-content > ul li.small ul.info li input {
+	display: block;
+	width: 103px;
+	height: 26px;
+	background: url(../images/get-it-button.jpg) no-repeat center center;
+	border: none;
+}
+.main-content > ul li.large {
+	float: left;
+	width: 444px;
+	margin: 0 8px 8px 8px;
+	padding: 5px 0 2px;
+	overflow: hidden;
+	background: #fff;
+	text-align: center;
+}
+.main-content > ul li.large ul.info {
+	position: relative;
+	overflow: hidden;
+}
+.main-content > ul li.large ul.info li {
+	display: block;
+	float: left;
+	width: 208px;
+	margin: 8px 5px 0 5px;
+	padding: 5px 5px 6px;
+}
+.main-content > ul li.large ul.info li p {
+	font: 16px 'robotomedium', Arial, sans-serif;
+	color: #555;
+	text-align: left;
+	line-height: 1.2em;
+}
+.main-content > ul li.large ul.info li + li {
+	display: block;
+	position: absolute;
+	width: 90px;
+	height: 100%;
+	top: 0;
+	right: 113px;
+	margin: 0 5px;
+	padding: 8px 0 0 0;
+	border-left: 1px solid #EDEDED;
+	border-right: 1px solid #EDEDED;
+}
+.main-content > ul li.large .info li + li span {
+	font: 24px 'robotobold', Arial, sans-serif;
+	color: #3E3E3F;
+}
+.main-content > ul li.large ul.info span.down {
+	font: 14px 'robotobold', Arial, sans-serif;
+	color: #3E3E3F;
+}
+.main-content > ul li.large ul.info span.upper {
+	font: 17px 'robotobold', Arial, sans-serif;
+	margin: 0 0 0 -5px;
+	vertical-align: 5px;
+}
+.main-content > ul li.large ul.info li + li + li {
+	display: block;
+	position: static;
+	float: right;
+	margin: 0;
+	padding: 0 20px 0 0;
+	border: none;
+}
+.main-content > ul li.large ul.info li + li + li input {
+	width: 103px;
+	height: 49px;
+	background: url(../images/get-it-button.jpg) no-repeat center center;
+	border: none;
+}
+.main-content h2 {
+	padding: 10px 0 15px 10px;
+	font: 20px 'robotomedium', Arial, sans-serif;
+	color: #000;
+	text-transform: uppercase;
+}
+.main-content h2 span {
+	color: #E60505;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sidebar {
+	float: left;
+	width: 250px;
+}
+.sidebar h2 {												/*------------------BEGIN CATEGORIES----------------*/
+	margin: 7px 0 0 0;
+	padding: 0 0 0 15px;
+	font: 14px 'robotomedium', Arial, sans-serif;
+	color: #EDEDED;
+	line-height: 40px;
+	text-transform: uppercase;
+	background: #DF1F25;
+}
+.sidebar h2 + ul {
+	margin: 0 0 25px 0;
+	background: url(../images/bg-list.png) no-repeat;
+	background-size: cover;
+}
+.sidebar h2 + ul li {
+	padding: 0 0 1px 0;
+	background: url(../images/list-border.png) no-repeat right bottom;
+}
+.sidebar h2 + ul li a {
+	display: block;
+	height: 100%;
+	padding: 0 0 0 35px;
+	font: 15px 'robotomedium', Arial, sans-serif;
+	color: #333333;
+	line-height: 40px;
+	text-decoration: none;
+	background: url(../images/icon-arrow.png) no-repeat 15px center;
+}
+.sidebar h2 + ul li a:hover, .sidebar h2 + ul li a.active {
+	background: url(../images/icon-arrow.png) no-repeat 15px center, url(../images/list-border-hover.png) repeat-y right top #fff;
+}															/*------------------END CATEGORIES----------------*/
+
+.sidebar > a img {											/*------------------BEGIN LOCATION----------------*/
+	margin: 0 0 10px 15px;
+}
+.sidebar > span {
+	display: block;
+	text-indent: 25px;
+	font: 36.89px 'robotolight', Arial, sans-serif;
+	color: #909091;
+	text-transform: uppercase;
+	line-height: 0.9em;
+}
+.sidebar > span + span {
+	margin: 0 0 40px 0;
+	font: 32.81px 'robotomedium', Arial, sans-serif;
+	line-height: 0.9em;
+}															/*------------------END LOCATION----------------*/
+
+.sidebar > h3 {												/*------------------BEGIN TWITTER----------------*/
+	margin: 0 0 20px 20px;
+	font: 18px 'robotomedium', Arial, sans-serif;
+	color: #D52129;
+}
+.sidebar > h3 + ul {
+	margin: 0 0 60px 15px;
+	padding: 0 28px 0 0;
+}
+.sidebar > h3 + ul > li {
+	margin: 0 0 29px 0;
+	background: url(../images/bg-twitter.png) no-repeat 3px 2px;
+}
+.sidebar > ul li p {
+	margin: 0 0 0 50px;
+	font: 13px 'robotomedium-italic', Arial, sans-serif;
+	color: #838383;
+	line-height: 1.5em;
+	text-decoration: none;
+}
+.sidebar > h3 + ul li p span {
+	color: #D52129;
+}
+.sidebar > h3 + ul li p span + span {
+	display: block;
+	color: #D52129;
+}															/*------------------END TWITTER----------------*/
+
+.sidebar > ul + span {										/*------------------BEGIN QUOTE----------------*/
+	margin: 0 10px 0 23px;
+	font: 18px 'robotomedium', Arial, sans-serif;
+	color: #D52129;
+	text-transform: uppercase;
+	text-indent: 0;
+}
+.sidebar em.quote {
+    position: relative;
+    display: block;
+    margin: 20px 27px 20px 18px;
+    padding: 20px 25px;
+    font: 13px 'pt-sansitalic', Arial, sans-serif;
+    color: #737373;
+    line-height: 1.5em;
+    background: #F5F3F3;
+}
+.sidebar em.quote::after {
+    content: ''; 
+    position: absolute;
+    left: 37px; bottom: -18px;
+    border-top: 18px solid #F5F3F3; 
+    border-right: 18px solid transparent;
+}
+.sidebar em.quote + span {
+	display: block;
+	margin: -8px 15px 0 18px;
+	font: 13px 'robotomedium', Arial, sans-serif;
+	color: #333;
+	line-height: 43px;
+	text-indent: 53px;
+	text-transform: none;
+	background: url(../images/icon-man.png) no-repeat left top;
+}															/*------------------END QUOTE----------------*/

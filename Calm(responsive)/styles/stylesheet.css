@@ -1,0 +1,76 @@
+﻿@font-face {
+	font-family:"lato_bold";
+	src:url("../fonts/Lato-Bold.eot?") format("eot"),
+		url("../fonts/Lato-Bold.woff") format("woff"),
+		url("../fonts/Lato-Bold.ttf") format("truetype"),
+		url("../fonts/Lato-Bold.svg#Lato-Bold") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato-black-webfont.eot');
+    src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato-black-webfont.woff') format('woff'),
+         url('../fonts/lato-black-webfont.ttf') format('truetype'),
+         url('../fonts/lato-black-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titilliumtext22lregular';
+    src: url('../fonts/../fonts/titilliumtext22l-regular-webfont.eot');
+    src: url('../fonts/../fonts/titilliumtext22l-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/../fonts/titilliumtext22l-regular-webfont.woff2') format('woff2'),
+         url('../fonts/../fonts/titilliumtext22l-regular-webfont.woff') format('woff'),
+         url('../fonts/../fonts/titilliumtext22l-regular-webfont.ttf') format('truetype'),
+         url('../fonts/../fonts/titilliumtext22l-regular-webfont.svg#titilliumtext22lregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titilliumtext22llight';
+    src: url('../fonts/titilliumtext22l-light-webfont.eot');
+    src: url('../fonts/titilliumtext22l-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titilliumtext22l-light-webfont.woff2') format('woff2'),
+         url('../fonts/titilliumtext22l-light-webfont.woff') format('woff'),
+         url('../fonts/titilliumtext22l-light-webfont.ttf') format('truetype'),
+         url('../fonts/titilliumtext22l-light-webfont.svg#titilliumtext22llight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titilliumtext22lmedium';
+    src: url('../fonts/titilliumtext22l-medium-webfont.eot');
+    src: url('../fonts/titilliumtext22l-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titilliumtext22l-medium-webfont.woff2') format('woff2'),
+         url('../fonts/titilliumtext22l-medium-webfont.woff') format('woff'),
+         url('../fonts/titilliumtext22l-medium-webfont.ttf') format('truetype'),
+         url('../fonts/titilliumtext22l-medium-webfont.svg#titilliumtext22lmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

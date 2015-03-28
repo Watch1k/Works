@@ -1,0 +1,216 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+header {
+	height: 551px;
+	background: url(../images/bg-header.jpg) no-repeat top;
+	background-size: cover;
+}
+header section {
+	margin: 0 0 0 55%;
+	max-width: 370px;
+}
+header section h1 {
+	padding: 90px 0 40px 0;
+	font: 60px 'Bira-PERSONALUSEONLY';
+	color: #fff;
+}
+header section p {
+	font: 24px 'HelveticaNeue';
+	color: #fff;
+}
+header section button {
+	margin: 30px 0 0 0;
+	font: 18px 'HelveticaNeue-Bold';
+	color: #fff;
+	width: 137px;
+	height: 53px;
+	border: none;
+	background-color: #F12078;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------MAIN-----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+main {
+	padding: 0 10px 40px 0;
+	width: 940px;
+	margin: 0 auto;
+}
+main article {
+	min-height: 700px;
+	background: url(../images/iphone.jpg) no-repeat right 100px;
+}
+main h2 {
+	margin: 40px 0 40px 0;
+	font: 24px 'HelveticaNeue';
+	color: #1e1f22;
+	text-align: center;
+}
+main h2 button {
+	width: 168px;
+	height: 53px;
+	font: 24px 'HelveticaNeue-Bold';
+	color: #fff;
+	background: #F12078;
+	border: none;
+	cursor: pointer;
+}
+main h2 span {
+	font: 36px 'Bira-PERSONALUSEONLY';
+	color: #ee1f77;
+}
+main section {
+	width: 50%;
+}
+main section h3 {
+	margin: 25px 0;
+	font: 24px 'HelveticaNeue';
+	color: #2e2e2e;
+	line-height: 30px;
+}
+main section p {
+	font: 14px 'HelveticaNeue';
+	color: #5e5e5e;
+	line-height: 20px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SLIDER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.slider {
+	width: 960px;
+	margin: -45px 0 0 -20px;
+}
+.slider li {
+	cursor: pointer;
+	padding: 17px;
+}
+.slider li {
+    position:relative;
+    width:40%;
+    margin: 0 5px 0 18px;
+    background:#fff;
+}
+.slider li:before,
+.slider li:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+.slider li:before {
+    top: 0px;
+    bottom:15px;
+    left:0;
+    right:0;
+    -webkit-box-shadow:0 0 7px rgba(0,0,0,0.2);
+       -moz-box-shadow:0 0 7px rgba(0,0,0,0.2);
+            box-shadow:0 0 7px rgba(0,0,0,0.2);
+    -moz-border-radius:10px / 100px;
+         border-radius:10px / 100px;
+}
+.slider li img {
+	width: 182px;
+	height: 105px;
+}
+.slider li h3 {
+	margin: 15px 0;
+	font: 16px 'HelveticaNeue';
+	font-weight: normal;
+}
+.slider li p {
+	padding: 15px 0 0 0;
+	font: 12px 'HelveticaNeue';
+	border-top: 2px solid #F5227D;
+	line-height: 16px;
+}
+.slider .slick-next, .slider .slick-prev {
+	margin-top: -30px;
+	width: 37px;
+	height: 57px;
+	opacity: 0.5;
+}
+.slider .slick-next:hover, .slider .slick-prev:hover {
+	opacity: 1;
+}
+.slider .slick-next {
+	right: -75px;
+}
+.slider .slick-prev {
+	left: -65px;
+}
+.slider .slick-next:before {
+	content: url(../images/right-arrow.png);
+}
+.slider .slick-prev:before {
+	content: url(../images/left-arrow.png);
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+footer {
+	overflow: hidden;
+	padding: 15px 10px;
+	width: 940px;
+	margin: 0 auto;
+	border-top: 2px solid #1D1E22;
+}
+footer span {
+	float: left;
+	font: 12px 'HelveticaNeue';
+	color: #2e2e2e;
+	line-height: 20px;
+}
+footer span span {
+	float: none;
+	color: #ee1f75;
+}
+footer span.creator {
+	float: right;
+	font: 12px 'HelveticaNeue';
+	color: #2e2e2e;
+	line-height: 20px;
+}
+footer span.creator a {
+	color: #f02077;
+	text-decoration: none;
+}

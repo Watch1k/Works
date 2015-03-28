@@ -1,0 +1,151 @@
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer {
+	width: 100%;
+	height: 345px;
+	background: url(../images/bg-footer.jpg) no-repeat center center;
+	background-size: 100% 345px;
+}
+.footer .main-footer {
+	width: 960px;
+	height: 230px;
+	margin: 0 auto;
+	padding: 65px 0 0 0;
+}
+.footer .main-footer > ul {
+	overflow: hidden;
+}
+.footer .main-footer > ul > li {										/*------------------BEGIN ABOUT----------------*/
+	display: block;
+	float: left;
+	width: 230px;
+	padding: 0 40px 0 0;
+}
+.footer .main-footer > ul > li h3 {
+	margin: 0 0 17px 0;
+	font: 18px 'robotobold', Arial, sans-serif;
+	color: #323131;
+	text-transform: uppercase;
+}
+.footer .main-footer > ul > li h4 {
+	margin: 0 0 27px 0;
+}
+.footer .main-footer > ul > li h4 > a {
+	font: 30px 'open-sanslight', Arial, sans-serif;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.footer .main-footer > ul > li h4 > a > span {
+	color: #FF0000;
+}
+.footer .main-footer > ul > li h4 + span {
+	font: 12px 'robotomedium', Arial, sans-serif;
+	color: #393939;
+	line-height: 1.3em;
+}																		/*------------------END ABOUT----------------*/
+
+.footer .main-footer > ul > li + li {									/*---------------BEGIN "FOLLOW US"-----------*/
+	width: auto;
+	padding: 0;
+}
+.footer .main-footer > ul > li + li h3 {
+	margin: 0 0 0 70px;
+}
+.footer .main-footer ul.social-links {
+	overflow: hidden;
+	padding: 0 50px 13px 70px;
+	background: url(../images/bg-follow.png) repeat-y left top, url(../images/bg-follow.png) repeat-y right top;
+}
+.footer .main-footer ul.social-links li a {
+	display: block;
+	margin: 10px 0;
+	font: 13px 'robotomedium', Arial, sans-serif;
+	color: #393939;
+	line-height: 20px;
+	text-indent: 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: url(../images/social-sprite.png) no-repeat 0 0;
+}
+.footer .main-footer ul.social-links li + li a {
+	background: url(../images/social-sprite.png) no-repeat 0 -20px;
+}
+.footer .main-footer ul.social-links li + li + li a {
+	background: url(../images/social-sprite.png) no-repeat 0 -40px;
+}
+.footer .main-footer ul.social-links li + li + li + li a {
+	background: url(../images/social-sprite.png) no-repeat 0 -60px;
+}
+.footer .main-footer ul.social-links li a:hover {
+	color: #fff;
+}																		/*--------------------END "FOLLOW US"------------------*/
+
+.footer .main-footer > ul > li + li + li {								/*-----------------BEGIN "CONTACT INFO"----------------*/
+	overflow: hidden;
+	width: auto;
+	margin: 0 0 0 50px;
+}
+.footer .main-footer > ul > li + li + li h3 {
+	margin: 0 0 17px 0;
+}
+.footer .main-footer > ul > li + li + li ul {
+	float: left;
+}
+.footer .main-footer > ul > li + li + li ul li p {
+	font: 14px 'robotomedium', Arial, sans-serif;
+	color: #393939;
+	line-height: 1.5em;
+	text-shadow: 0 1px 1px #fff;
+}
+.footer .main-footer > ul > li + li + li ul + p {
+	display: block;
+	float: left;
+	margin: 0 0 0 20px;
+	width: 160px;
+	font: 14px 'robotomedium', Arial, sans-serif;
+	color: #737373;
+	line-height: 1.5em;
+	text-shadow: 0 1px 1px #fff;
+}																		/*-----------------END "CONTACT INFO"----------------*/
+
+.footer .bottom-footer {
+	overflow: hidden;
+	width: 960px;
+	margin: 0 auto;
+	padding: 17px 0 0 0;
+}
+.footer .bottom-footer ul {
+	overflow: hidden;
+	float: left;
+}
+.footer .bottom-footer ul li {
+	display: block;
+	float: left;
+	padding: 0 10px 0 12px;
+}
+.footer .bottom-footer ul li a {
+	font: 12px 'robotobold', Arial, sans-serif;
+	color: #C3C3C3;
+	line-height: 1.2em;
+	text-decoration: none;
+}
+.footer .bottom-footer ul li a:hover {
+	color: #fff;
+}
+.footer .bottom-footer ul li + li {
+	background: url(../images/icon-point.png) no-repeat left 7px;
+	background-size: 2px 2px;
+}
+.footer .bottom-footer > a {
+	float: right;
+	font: 16.02px 'open-sanslight', Arial, sans-serif;
+	color: #797777;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.footer .bottom-footer > a:hover {
+	color: #fff;
+}

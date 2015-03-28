@@ -1,0 +1,306 @@
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header-wrap {
+	border-top: 7px solid #3D4A5E;
+	padding: 0 0 15px 0;
+	background: #fff;
+}
+.header-wrap:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.header {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 1%;
+}
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.header h1 {
+	float: left;
+	margin: 20px 0 0 0;
+}
+.header h1 a {
+	display: block;
+	text-decoration: none;
+}
+.header a span {
+	font: 33px lato_bold, Arial, sans-serif;
+	color: #33495D;
+}
+.header h1 a span + span {
+	color: #19BB9B;
+}
+.header h1 a span + span + span {
+	color: #33495D;
+}
+.header h1 a span + span + span + span {
+	margin: 0 0 0 5px;
+	font: 12px latoregular, Arial, sans-serif;
+	color: #BDC3C7;
+	vertical-align: 3px;
+}
+.header form {
+	overflow: hidden;
+	float: right;
+	margin: 27px 0 0 0;
+	position: relative;
+	z-index: 1;
+}
+.header form fieldset input {
+	float: right;
+	margin: 1px 0 0 0;
+	width: 16px;
+	height: 16px;
+	background: url(../images/button.png) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+.header form fieldset input + input {
+	visibility: hidden;
+	opacity: 0;
+	margin: 0 5px 0 0;
+	width: 0;
+	height: 16px;
+	background: none;
+	border: 2px solid #BDC3C7;
+	border-radius: 4px;
+	cursor: auto;
+	font: 13px latoregular, Arial, sans-serif;
+	color: #959FA6;
+	transition: 0.5s;
+}
+.header form fieldset input.expand {
+	visibility: visible;
+	opacity: 1;
+	width: 100px;
+	padding: 0 5px;
+	transition: width 0.5s, opacity 2.5s;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header .nav-wrap {
+	position: relative;
+	float: right;
+	margin: 20px 0 0 0;
+	padding: 0 0 5px 0;
+}
+.header .nav-wrap:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.header .nav-wrap > button {
+	display: none;
+	width: 100%;
+	padding: 3px 0;
+	font: 13px lato_bold, Arial, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 27px;
+	background: url(../images/arrow-bottom.png) no-repeat center 24px #19BB9B;
+	background-size: 5px 4px; 
+	border: none;
+}
+.header .nav:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.header .nav > li {
+	float: left;
+	margin: 0 5px 1px 0;
+	position: relative;
+}
+.header .nav > li a {
+	display: block;
+	padding: 3px 13px 3px 13px;
+	font: 13px lato_bold, Arial, sans-serif;
+	color: #BDC3C7;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 27px;
+}
+.header .nav li:hover {
+	background: #33495D;
+	border-radius: 1px 1px 2px 2px;
+	box-shadow: 0 1px #A9BDCF;
+}
+.header .nav li + li + li {
+	padding: 0 0 5px 0;
+}
+.header .nav li + li + li:hover {
+	padding: 0 0 5px 0;
+	border-radius: 1px 1px 0 0;
+}
+.header .nav li + li + li + li {
+	padding: 0;
+}
+.header .nav li + li + li + li:hover {
+	padding: 0;
+	border-radius: 1px 1px 2px 2px;
+}
+.header .nav li:hover a {
+	color: #fff;
+}
+.header .nav li a.active {
+	background: #19BB9B;
+	border-radius: 1px 1px 2px 2px;
+	box-shadow: 0 1px #C5EEE6;
+}
+.header .nav li a.active {
+	color: #fff;
+}
+.header .nav li ul {
+	position: absolute;
+	left: -9999px;
+}
+.header .nav li ul li {
+	float: none;
+	opacity: 0;
+	background: #33495D;
+}
+.header .nav li ul li a {
+	display: block;
+	padding: 8px 13px 8px 13px;
+	white-space: nowrap;
+	font: 12px lato_bold, Arial, sans-serif;
+	color: #EBEFF1;
+	text-transform: none;
+}
+.header .nav li:hover ul {
+	left: 0;
+	margin: 5px 0 0 0;
+}
+.header .nav li:hover ul li {
+	opacity: 1;
+	transition: 0.2s linear;
+}
+.header .nav li ul li:hover a {
+	color: #30D6BD;
+}
+/*----------------------------------------------------------------------------------*/
+/*-----------------------------------RESPONSIVE-------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 870px) {
+	.header h1 {
+		float: none;
+		text-align: center;
+	}
+	.header .nav-wrap {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	.header .nav li {
+		float: none;
+		display: inline-block;
+	}
+	.header .nav li ul {
+		text-align: left;
+	}
+	.header .nav li ul li {
+		display: block;
+	}
+}
+@media screen and (max-width: 650px) {
+	.header-wrap {
+		padding: 0;
+	}
+	.header h1 {
+		margin: 10px 0 0 0;
+	}
+	.header form {
+		float: none;
+		margin: 3% 15% 0 8%;
+	}
+	.header form fieldset input + input {
+		visibility: visible;
+		opacity: 1;
+		width: 80%;
+		padding: 0 5px;
+	}
+	.header form fieldset input + input.expand {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.header-wrap {
+		padding: 0 0 3% 0;
+	}
+	.header form {
+		float: right;
+		margin: 5% 1% 0 0;
+		width: 60%;
+	}
+	.header form fieldset input + input,
+	.header form fieldset input + input.expand {
+		width: 75%;
+	}
+	.header .nav-wrap {
+		overflow: visible;
+		float: left;
+		margin: 3% 0 0 5%;
+		width: 33%;
+		text-align: center;
+	}
+	.header .nav-wrap > button {
+		display: block;
+	}
+	.header .nav {
+		overflow: hidden;
+		visibility: hidden;
+		position: absolute;
+		max-height: 0;
+		left: 0;
+		right: 0;
+	}
+	.header .nav.visible {
+		visibility: visible;
+		max-height: 300px;
+		transition: max-height 0.4s;
+	}
+	.header .nav li {
+		display: block;
+		margin: 0;
+		border-top: 1px solid #fff;
+		border-left: 4px solid #fff;
+		border-right: 4px solid #fff;
+	}
+	.header .nav li:first-child {
+		border-top: 2px solid #fff;
+	}
+	.header .nav li:last-child {
+		border-bottom: 4px solid #fff;
+	}
+	.header .nav li:hover {
+		box-shadow: none;
+	}
+	.header .nav li + li + li {
+		padding: 0;
+	}
+	.header .nav li + li + li:hover {
+		padding: 0;
+	}
+	.header .nav > li a {
+		padding: 3px 0 3px;
+		color: #fff;
+		background: #33495D;
+	}
+	.header .nav > li a.active {
+		box-shadow: none;
+	}
+	.header .nav li a.hover {
+		box-shadow: none;
+	}
+	.header .nav li:hover ul {
+		display: none;
+	}
+}
